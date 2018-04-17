@@ -1,0 +1,113 @@
+{
+  "name": "LNLib",
+  "version": "0.1.2",
+  "summary": "简单实用工具",
+  "description": "封装的一些实用工具，代理封装，请求集成，数据解析",
+  "homepage": "https://gitee.com/Lance01",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lance": "469790503@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitee.com/Lance01/LanceTool.git",
+    "tag": "0.1.2"
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "LNDataSource",
+      "source_files": "LNLib/LNDataSource/*.{h,m}",
+      "dependencies": {
+        "UITableView+FDTemplateLayoutCell": [
+
+        ]
+      }
+    },
+    {
+      "name": "LNBase",
+      "source_files": "LNLib/LNBase/*.{h,m}",
+      "dependencies": {
+        "MJExtension": [
+
+        ],
+        "ReactiveObjC": [
+
+        ],
+        "LNLib/LNMB": [
+
+        ],
+        "LNLib/LNHttp": [
+
+        ],
+        "LNLib/LNParser": [
+
+        ]
+      }
+    },
+    {
+      "name": "LNMB",
+      "source_files": "LNLib/LNMB/*.{h,m}",
+      "dependencies": {
+        "Toast": [
+
+        ],
+        "MBProgressHUD": [
+
+        ]
+      }
+    },
+    {
+      "name": "LNHttp",
+      "source_files": "LNLib/LNHttp/*.{h,m}",
+      "dependencies": {
+        "AFNetworking": [
+
+        ],
+        "ReactiveObjC": [
+
+        ],
+        "LNLib/LNMB": [
+
+        ],
+        "LNLib/LNParser": [
+
+        ]
+      }
+    },
+    {
+      "name": "LNParser",
+      "source_files": "LNLib/LNParser/*.{h,m}",
+      "dependencies": {
+        "MJExtension": [
+
+        ]
+      }
+    },
+    {
+      "name": "LNTool",
+      "source_files": "LNLib/LNTool/*.{h,m}",
+      "dependencies": {
+        "MJExtension": [
+
+        ],
+        "ReactiveObjC": [
+
+        ]
+      },
+      "frameworks": [
+        "Photos",
+        "AVFoundation",
+        "UIKit",
+        "Contacts",
+        "AddressBook",
+        "CoreLocation"
+      ]
+    }
+  ]
+}

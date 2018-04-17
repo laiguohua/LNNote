@@ -1,0 +1,6 @@
+framework module LNLib {
+  umbrella header "LNLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D76331F82085C0CE0095BE6D /* NoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D76331F72085C0CE0095BE6D /* NoteCell.m */; };
 		D7F2B30F20848B4B003B4669 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F2B30E20848B4B003B4669 /* AppDelegate.m */; };
 		D7F2B31220848B4B003B4669 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F2B31120848B4B003B4669 /* ViewController.m */; };
 		D7F2B31520848B4B003B4669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F2B31320848B4B003B4669 /* Main.storyboard */; };
 		D7F2B31720848B4D003B4669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F2B31620848B4D003B4669 /* Assets.xcassets */; };
 		D7F2B31A20848B4D003B4669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F2B31820848B4D003B4669 /* LaunchScreen.storyboard */; };
 		D7F2B31D20848B4D003B4669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F2B31C20848B4D003B4669 /* main.m */; };
+		D7F2B32720848CFD003B4669 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F2B32520848CFD003B4669 /* WebViewController.m */; };
+		D7F2B32820848CFD003B4669 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F2B32620848CFD003B4669 /* WebViewController.xib */; };
+		D7F2B32B20848FE2003B4669 /* webViewJsForios.js in Resources */ = {isa = PBXBuildFile; fileRef = D7F2B32920848FE2003B4669 /* webViewJsForios.js */; };
+		D7F2B32C20848FE2003B4669 /* webViewHtmlForios.html in Resources */ = {isa = PBXBuildFile; fileRef = D7F2B32A20848FE2003B4669 /* webViewHtmlForios.html */; };
+		D7F2B32F20849EE4003B4669 /* JsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F2B32E20849EE4003B4669 /* JsModel.m */; };
+		D7F2B3332084A378003B4669 /* wkwebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F2B3312084A378003B4669 /* wkwebViewController.m */; };
+		D7F2B3342084A378003B4669 /* wkwebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F2B3322084A378003B4669 /* wkwebViewController.xib */; };
+		F9F5974831DC248C5C0747D1 /* Pods_LNNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091C6E9CA4F9F37B793C6CA9 /* Pods_LNNote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		091C6E9CA4F9F37B793C6CA9 /* Pods_LNNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31A749205DB2DC2304CF4ED /* Pods-LNNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNNote/Pods-LNNote.debug.xcconfig"; sourceTree = "<group>"; };
+		D171F637832D1F70BB4CC8FA /* Pods-LNNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNNote/Pods-LNNote.release.xcconfig"; sourceTree = "<group>"; };
+		D76331F62085C0CE0095BE6D /* NoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteCell.h; sourceTree = "<group>"; };
+		D76331F72085C0CE0095BE6D /* NoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteCell.m; sourceTree = "<group>"; };
 		D7F2B30A20848B4B003B4669 /* LNNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F2B30D20848B4B003B4669 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7F2B30E20848B4B003B4669 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +40,16 @@
 		D7F2B31920848B4D003B4669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F2B31B20848B4D003B4669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7F2B31C20848B4D003B4669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7F2B32420848CFD003B4669 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		D7F2B32520848CFD003B4669 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		D7F2B32620848CFD003B4669 /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		D7F2B32920848FE2003B4669 /* webViewJsForios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = webViewJsForios.js; sourceTree = "<group>"; };
+		D7F2B32A20848FE2003B4669 /* webViewHtmlForios.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webViewHtmlForios.html; sourceTree = "<group>"; };
+		D7F2B32D20849EE4003B4669 /* JsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsModel.h; sourceTree = "<group>"; };
+		D7F2B32E20849EE4003B4669 /* JsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsModel.m; sourceTree = "<group>"; };
+		D7F2B3302084A378003B4669 /* wkwebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wkwebViewController.h; sourceTree = "<group>"; };
+		D7F2B3312084A378003B4669 /* wkwebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wkwebViewController.m; sourceTree = "<group>"; };
+		D7F2B3322084A378003B4669 /* wkwebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wkwebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F5974831DC248C5C0747D1 /* Pods_LNNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BA5B92C4C47BD17F44504A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A31A749205DB2DC2304CF4ED /* Pods-LNNote.debug.xcconfig */,
+				D171F637832D1F70BB4CC8FA /* Pods-LNNote.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1FCCBC1E0F2EF6799B9BFE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091C6E9CA4F9F37B793C6CA9 /* Pods_LNNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7F2B30120848B4B003B4669 = {
 			isa = PBXGroup;
 			children = (
 				D7F2B30C20848B4B003B4669 /* LNNote */,
 				D7F2B30B20848B4B003B4669 /* Products */,
+				4BA5B92C4C47BD17F44504A2 /* Pods */,
+				C1FCCBC1E0F2EF6799B9BFE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +102,7 @@
 		D7F2B30C20848B4B003B4669 /* LNNote */ = {
 			isa = PBXGroup;
 			children = (
+				D7F2B32320848C9B003B4669 /* webviewJS */,
 				D7F2B30D20848B4B003B4669 /* AppDelegate.h */,
 				D7F2B30E20848B4B003B4669 /* AppDelegate.m */,
 				D7F2B31020848B4B003B4669 /* ViewController.h */,
@@ -67,8 +112,27 @@
 				D7F2B31820848B4D003B4669 /* LaunchScreen.storyboard */,
 				D7F2B31B20848B4D003B4669 /* Info.plist */,
 				D7F2B31C20848B4D003B4669 /* main.m */,
+				D76331F62085C0CE0095BE6D /* NoteCell.h */,
+				D76331F72085C0CE0095BE6D /* NoteCell.m */,
 			);
 			path = LNNote;
+			sourceTree = "<group>";
+		};
+		D7F2B32320848C9B003B4669 /* webviewJS */ = {
+			isa = PBXGroup;
+			children = (
+				D7F2B32A20848FE2003B4669 /* webViewHtmlForios.html */,
+				D7F2B32920848FE2003B4669 /* webViewJsForios.js */,
+				D7F2B32420848CFD003B4669 /* WebViewController.h */,
+				D7F2B32520848CFD003B4669 /* WebViewController.m */,
+				D7F2B32620848CFD003B4669 /* WebViewController.xib */,
+				D7F2B32D20849EE4003B4669 /* JsModel.h */,
+				D7F2B32E20849EE4003B4669 /* JsModel.m */,
+				D7F2B3302084A378003B4669 /* wkwebViewController.h */,
+				D7F2B3312084A378003B4669 /* wkwebViewController.m */,
+				D7F2B3322084A378003B4669 /* wkwebViewController.xib */,
+			);
+			path = webviewJS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7F2B32020848B4D003B4669 /* Build configuration list for PBXNativeTarget "LNNote" */;
 			buildPhases = (
+				43BFA49AF1767DB79F43AD81 /* [CP] Check Pods Manifest.lock */,
 				D7F2B30620848B4B003B4669 /* Sources */,
 				D7F2B30720848B4B003B4669 /* Frameworks */,
 				D7F2B30820848B4B003B4669 /* Resources */,
+				2D9CA7ACC4F8EBE8E99DD81A /* [CP] Embed Pods Frameworks */,
+				6B8DD97D0E3FE61596070F6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,12 +196,98 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F2B31A20848B4D003B4669 /* LaunchScreen.storyboard in Resources */,
+				D7F2B32C20848FE2003B4669 /* webViewHtmlForios.html in Resources */,
 				D7F2B31720848B4D003B4669 /* Assets.xcassets in Resources */,
 				D7F2B31520848B4B003B4669 /* Main.storyboard in Resources */,
+				D7F2B32B20848FE2003B4669 /* webViewJsForios.js in Resources */,
+				D7F2B3342084A378003B4669 /* wkwebViewController.xib in Resources */,
+				D7F2B32820848CFD003B4669 /* WebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D9CA7ACC4F8EBE8E99DD81A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LNNote/Pods-LNNote-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/LNLib/LNLib.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Objective-LevelDB/Objective_LevelDB.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LNLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Objective_LevelDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNNote/Pods-LNNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43BFA49AF1767DB79F43AD81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LNNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8DD97D0E3FE61596070F6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNNote/Pods-LNNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7F2B30620848B4B003B4669 /* Sources */ = {
@@ -142,8 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F2B31220848B4B003B4669 /* ViewController.m in Sources */,
+				D76331F82085C0CE0095BE6D /* NoteCell.m in Sources */,
+				D7F2B32F20849EE4003B4669 /* JsModel.m in Sources */,
 				D7F2B31D20848B4D003B4669 /* main.m in Sources */,
+				D7F2B3332084A378003B4669 /* wkwebViewController.m in Sources */,
 				D7F2B30F20848B4B003B4669 /* AppDelegate.m in Sources */,
+				D7F2B32720848CFD003B4669 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -272,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -281,11 +438,13 @@
 		};
 		D7F2B32120848B4D003B4669 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31A749205DB2DC2304CF4ED /* Pods-LNNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUL8MVVQ4H;
 				INFOPLIST_FILE = LNNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +457,13 @@
 		};
 		D7F2B32220848B4D003B4669 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D171F637832D1F70BB4CC8FA /* Pods-LNNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUL8MVVQ4H;
 				INFOPLIST_FILE = LNNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
