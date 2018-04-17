@@ -7,12 +7,16 @@
 //
 
 #import "ViewController.h"
-#import "WebViewController.h"
 #import <LNLib/LBaseTableDelegateModel.h>
 #import <Masonry/Masonry.h>
 #import <ReactiveObjC/ReactiveObjC.h>
 
 #import "NoteCell.h"
+
+#import "WebViewController.h"
+#import "GCDNoteViewController.h"
+#import "ResponderViewController.h"
+#import "RunloopViewController.h"
 
 @interface ViewController ()
 
@@ -27,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-     self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.edgesForExtendedLayout = UIRectEdgeNone;
     self.title = @"功能列表";
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackTranslucent];
     [[UINavigationBar appearance] setBarTintColor:[[UIColor whiteColor] colorWithAlphaComponent:0.8]];
@@ -47,7 +51,13 @@
 - (void)loadLocalData{
     [self.dataArr removeAllObjects];
     NSDictionary *dict1 = @{@"type":@1,@"name":@"webjs交互"};
+    NSDictionary *dict2 = @{@"type":@2,@"name":@"GCD相关"};
+    NSDictionary *dict3 = @{@"type":@3,@"name":@"响应链传值"};
+    NSDictionary *dict4 = @{@"type":@4,@"name":@"Runloop"};
     [self.dataArr addObject:dict1];
+    [self.dataArr addObject:dict2];
+    [self.dataArr addObject:dict3];
+    [self.dataArr addObject:dict4];
 }
 
 - (void)cellClikWithModel:(NSDictionary *)dict{
@@ -56,12 +66,29 @@
         case 1:
         {
             WebViewController *webVC = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
+            webVC.title = dict[@"name"];
             [self.navigationController pushViewController:webVC animated:YES];
         }
             break;
         case 2:
         {
-            
+            GCDNoteViewController *gcdVC = [[GCDNoteViewController alloc] initWithNibName:@"GCDNoteViewController" bundle:nil];
+            gcdVC.title = dict[@"name"];
+            [self.navigationController pushViewController:gcdVC animated:YES];
+        }
+            break;
+        case 3:
+        {
+            ResponderViewController *responderVC = [[ResponderViewController alloc] initWithNibName:@"ResponderViewController" bundle:nil];
+            responderVC.title = dict[@"name"];
+            [self.navigationController pushViewController:responderVC animated:YES];
+        }
+            break;
+        case 4:
+        {
+            RunloopViewController *runloopVC = [[RunloopViewController alloc] initWithNibName:@"RunloopViewController" bundle:nil];
+            runloopVC.title = dict[@"name"];
+            [self.navigationController pushViewController:runloopVC animated:YES];
         }
             break;
             

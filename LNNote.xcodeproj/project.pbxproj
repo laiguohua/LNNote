@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D76331F82085C0CE0095BE6D /* NoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D76331F72085C0CE0095BE6D /* NoteCell.m */; };
+		D76331FD2085D1310095BE6D /* GCDNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76331FB2085D1310095BE6D /* GCDNoteViewController.m */; };
+		D76331FE2085D1310095BE6D /* GCDNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76331FC2085D1310095BE6D /* GCDNoteViewController.xib */; };
+		D76332032085D9AE0095BE6D /* ResponderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76332012085D9AE0095BE6D /* ResponderViewController.m */; };
+		D76332042085D9AE0095BE6D /* ResponderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76332022085D9AE0095BE6D /* ResponderViewController.xib */; };
+		D76332072085DAE80095BE6D /* responderTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D76332062085DAE80095BE6D /* responderTapView.m */; };
+		D763320C2085DC430095BE6D /* NSObject+performSelecter.m in Sources */ = {isa = PBXBuildFile; fileRef = D763320A2085DC430095BE6D /* NSObject+performSelecter.m */; };
+		D763320D2085DC430095BE6D /* UIResponder+route.m in Sources */ = {isa = PBXBuildFile; fileRef = D763320B2085DC430095BE6D /* UIResponder+route.m */; };
+		D76332122085E1790095BE6D /* RunloopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76332102085E1790095BE6D /* RunloopViewController.m */; };
+		D76332132085E1790095BE6D /* RunloopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76332112085E1790095BE6D /* RunloopViewController.xib */; };
 		D7F2B30F20848B4B003B4669 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F2B30E20848B4B003B4669 /* AppDelegate.m */; };
 		D7F2B31220848B4B003B4669 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F2B31120848B4B003B4669 /* ViewController.m */; };
 		D7F2B31520848B4B003B4669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F2B31320848B4B003B4669 /* Main.storyboard */; };
@@ -30,6 +39,21 @@
 		D171F637832D1F70BB4CC8FA /* Pods-LNNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNNote/Pods-LNNote.release.xcconfig"; sourceTree = "<group>"; };
 		D76331F62085C0CE0095BE6D /* NoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteCell.h; sourceTree = "<group>"; };
 		D76331F72085C0CE0095BE6D /* NoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteCell.m; sourceTree = "<group>"; };
+		D76331FA2085D1310095BE6D /* GCDNoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDNoteViewController.h; sourceTree = "<group>"; };
+		D76331FB2085D1310095BE6D /* GCDNoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDNoteViewController.m; sourceTree = "<group>"; };
+		D76331FC2085D1310095BE6D /* GCDNoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCDNoteViewController.xib; sourceTree = "<group>"; };
+		D76332002085D9AE0095BE6D /* ResponderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponderViewController.h; sourceTree = "<group>"; };
+		D76332012085D9AE0095BE6D /* ResponderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderViewController.m; sourceTree = "<group>"; };
+		D76332022085D9AE0095BE6D /* ResponderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResponderViewController.xib; sourceTree = "<group>"; };
+		D76332052085DAE80095BE6D /* responderTapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = responderTapView.h; sourceTree = "<group>"; };
+		D76332062085DAE80095BE6D /* responderTapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = responderTapView.m; sourceTree = "<group>"; };
+		D76332082085DC430095BE6D /* UIResponder+route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+route.h"; sourceTree = "<group>"; };
+		D76332092085DC430095BE6D /* NSObject+performSelecter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+performSelecter.h"; sourceTree = "<group>"; };
+		D763320A2085DC430095BE6D /* NSObject+performSelecter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+performSelecter.m"; sourceTree = "<group>"; };
+		D763320B2085DC430095BE6D /* UIResponder+route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+route.m"; sourceTree = "<group>"; };
+		D763320F2085E1790095BE6D /* RunloopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopViewController.h; sourceTree = "<group>"; };
+		D76332102085E1790095BE6D /* RunloopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopViewController.m; sourceTree = "<group>"; };
+		D76332112085E1790095BE6D /* RunloopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunloopViewController.xib; sourceTree = "<group>"; };
 		D7F2B30A20848B4B003B4669 /* LNNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F2B30D20848B4B003B4669 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7F2B30E20848B4B003B4669 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +105,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D76331F92085D1180095BE6D /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				D76331FA2085D1310095BE6D /* GCDNoteViewController.h */,
+				D76331FB2085D1310095BE6D /* GCDNoteViewController.m */,
+				D76331FC2085D1310095BE6D /* GCDNoteViewController.xib */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		D76331FF2085D9350095BE6D /* ResponderChain */ = {
+			isa = PBXGroup;
+			children = (
+				D76332092085DC430095BE6D /* NSObject+performSelecter.h */,
+				D763320A2085DC430095BE6D /* NSObject+performSelecter.m */,
+				D76332082085DC430095BE6D /* UIResponder+route.h */,
+				D763320B2085DC430095BE6D /* UIResponder+route.m */,
+				D76332002085D9AE0095BE6D /* ResponderViewController.h */,
+				D76332012085D9AE0095BE6D /* ResponderViewController.m */,
+				D76332022085D9AE0095BE6D /* ResponderViewController.xib */,
+				D76332052085DAE80095BE6D /* responderTapView.h */,
+				D76332062085DAE80095BE6D /* responderTapView.m */,
+			);
+			path = ResponderChain;
+			sourceTree = "<group>";
+		};
+		D763320E2085E1620095BE6D /* Runloop */ = {
+			isa = PBXGroup;
+			children = (
+				D763320F2085E1790095BE6D /* RunloopViewController.h */,
+				D76332102085E1790095BE6D /* RunloopViewController.m */,
+				D76332112085E1790095BE6D /* RunloopViewController.xib */,
+			);
+			path = Runloop;
+			sourceTree = "<group>";
+		};
 		D7F2B30120848B4B003B4669 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +162,9 @@
 		D7F2B30C20848B4B003B4669 /* LNNote */ = {
 			isa = PBXGroup;
 			children = (
+				D763320E2085E1620095BE6D /* Runloop */,
+				D76331FF2085D9350095BE6D /* ResponderChain */,
+				D76331F92085D1180095BE6D /* GCD */,
 				D7F2B32320848C9B003B4669 /* webviewJS */,
 				D7F2B30D20848B4B003B4669 /* AppDelegate.h */,
 				D7F2B30E20848B4B003B4669 /* AppDelegate.m */,
@@ -200,8 +263,11 @@
 				D7F2B31720848B4D003B4669 /* Assets.xcassets in Resources */,
 				D7F2B31520848B4B003B4669 /* Main.storyboard in Resources */,
 				D7F2B32B20848FE2003B4669 /* webViewJsForios.js in Resources */,
+				D76331FE2085D1310095BE6D /* GCDNoteViewController.xib in Resources */,
+				D76332132085E1790095BE6D /* RunloopViewController.xib in Resources */,
 				D7F2B3342084A378003B4669 /* wkwebViewController.xib in Resources */,
 				D7F2B32820848CFD003B4669 /* WebViewController.xib in Resources */,
+				D76332042085D9AE0095BE6D /* ResponderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,9 +362,15 @@
 			files = (
 				D7F2B31220848B4B003B4669 /* ViewController.m in Sources */,
 				D76331F82085C0CE0095BE6D /* NoteCell.m in Sources */,
+				D76332032085D9AE0095BE6D /* ResponderViewController.m in Sources */,
 				D7F2B32F20849EE4003B4669 /* JsModel.m in Sources */,
+				D76332122085E1790095BE6D /* RunloopViewController.m in Sources */,
 				D7F2B31D20848B4D003B4669 /* main.m in Sources */,
 				D7F2B3332084A378003B4669 /* wkwebViewController.m in Sources */,
+				D763320C2085DC430095BE6D /* NSObject+performSelecter.m in Sources */,
+				D76331FD2085D1310095BE6D /* GCDNoteViewController.m in Sources */,
+				D763320D2085DC430095BE6D /* UIResponder+route.m in Sources */,
+				D76332072085DAE80095BE6D /* responderTapView.m in Sources */,
 				D7F2B30F20848B4B003B4669 /* AppDelegate.m in Sources */,
 				D7F2B32720848CFD003B4669 /* WebViewController.m in Sources */,
 			);
