@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <title>ioswebview与js交互</title>
     <script type="text/javascript" src="webViewJsForios.js"></script>
+    <link rel="stylesheet" type="text/css" href="webViewCssforios.css">
 </head>
 <body>
-<text style="font-size:30px;color:red;text-align: center;">以下是OC与uiwebview的交互</text>
-<br/>
-<button onclick="clikTest()" style="font-size: 25px">点击测试，不传值</button>
-<br/>
-<br/>
-<button onclick="clikTestOneParamer()" style="font-size: 25px">点击测试，传一个值</button>
-<br/>
-<br/>
-<button onclick="clikTestMoreParamer()" style="font-size: 25px">点击测试，传多个值</button>
-<br/>
-<br/>
-<button onclick="justTest()" style="font-size: 25px">点击测试，不以对象方式来调</button>
-<br/>
-<br/>
-<button onclick="clikTestObjectMethod()" style="font-size: 25px">点击测试，以对象方式来调</button>
-<br/>
-<br/>
-<text style="font-size:30px;color:red;text-align: center;">跳转到wkwebview</text>
-<br/>
-<br/>
-<button onclick="jumpToWkWebview()" style="font-size: 25px;text-align: center;">跳转到wkwebview测试</button>
-<br/>
-<br/>
-<text style="font-size:30px;color:red;text-align: center;">以下是OC与wkwebview的交互</text>
-<br/>
-<br/>
-<button onclick="wkMethond()" style="font-size: 25px">wkwebview点击测试</button>
-<br/>
-<br/>
+<div class="containter">
+    <text style="font-size:30px;color:red;text-align: center;">以下是OC与uiwebview的交互</text>
+    <br/>
+    <button onclick="clikTest()" class="ios-button">点击测试，不传值</button>
+    <br/>
+    <br/>
+    <button onclick="clikTestOneParamer()" class="ios-button">点击测试，传一个值</button>
+    <br/>
+    <br/>
+    <button onclick="clikTestMoreParamer()" class="ios-button">点击测试，传多个值</button>
+    <br/>
+    <br/>
+    <button onclick="justTest()" class="ios-button">点击测试，不以对象方式来调</button>
+    <br/>
+    <br/>
+    <button onclick="clikTestObjectMethod()" class="ios-button">点击测试，以对象方式来调</button>
+    <br/>
+    <br/>
+    <text style="font-size:30px;color:red;text-align: center;">跳转到wkwebview</text>
+    <br/>
+    <br/>
+    <button onclick="jumpToWkWebview()" class="ios-button">跳转到wkwebview测试</button>
+    <br/>
+    <br/>
+    <text style="font-size:30px;color:red;text-align: center;">以下是OC与wkwebview的交互</text>
+    <br/>
+    <br/>
+    <button onclick="wkMethond()" class="ios-button">wkwebview点击测试</button>
+    <br/>
+    <br/>
+</div>
 </body>
 </html>

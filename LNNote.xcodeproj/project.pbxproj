@@ -17,6 +17,7 @@
 		D763320D2085DC430095BE6D /* UIResponder+route.m in Sources */ = {isa = PBXBuildFile; fileRef = D763320B2085DC430095BE6D /* UIResponder+route.m */; };
 		D76332122085E1790095BE6D /* RunloopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76332102085E1790095BE6D /* RunloopViewController.m */; };
 		D76332132085E1790095BE6D /* RunloopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76332112085E1790095BE6D /* RunloopViewController.xib */; };
+		D76332152085F8FC0095BE6D /* webViewCssforios.css in Resources */ = {isa = PBXBuildFile; fileRef = D76332142085F8FC0095BE6D /* webViewCssforios.css */; };
 		D7F2B30F20848B4B003B4669 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F2B30E20848B4B003B4669 /* AppDelegate.m */; };
 		D7F2B31220848B4B003B4669 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F2B31120848B4B003B4669 /* ViewController.m */; };
 		D7F2B31520848B4B003B4669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F2B31320848B4B003B4669 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		D763320F2085E1790095BE6D /* RunloopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopViewController.h; sourceTree = "<group>"; };
 		D76332102085E1790095BE6D /* RunloopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunloopViewController.m; sourceTree = "<group>"; };
 		D76332112085E1790095BE6D /* RunloopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunloopViewController.xib; sourceTree = "<group>"; };
+		D76332142085F8FC0095BE6D /* webViewCssforios.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = webViewCssforios.css; sourceTree = "<group>"; };
 		D7F2B30A20848B4B003B4669 /* LNNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F2B30D20848B4B003B4669 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7F2B30E20848B4B003B4669 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 			children = (
 				D7F2B32A20848FE2003B4669 /* webViewHtmlForios.html */,
 				D7F2B32920848FE2003B4669 /* webViewJsForios.js */,
+				D76332142085F8FC0095BE6D /* webViewCssforios.css */,
 				D7F2B32420848CFD003B4669 /* WebViewController.h */,
 				D7F2B32520848CFD003B4669 /* WebViewController.m */,
 				D7F2B32620848CFD003B4669 /* WebViewController.xib */,
@@ -266,6 +269,7 @@
 				D76331FE2085D1310095BE6D /* GCDNoteViewController.xib in Resources */,
 				D76332132085E1790095BE6D /* RunloopViewController.xib in Resources */,
 				D7F2B3342084A378003B4669 /* wkwebViewController.xib in Resources */,
+				D76332152085F8FC0095BE6D /* webViewCssforios.css in Resources */,
 				D7F2B32820848CFD003B4669 /* WebViewController.xib in Resources */,
 				D76332042085D9AE0095BE6D /* ResponderViewController.xib in Resources */,
 			);
