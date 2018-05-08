@@ -17,6 +17,7 @@ pod 'TZImagePickerController', '~> 1.8.7'
 pod 'Objective-LevelDB' 
 #私有Spec Repo 
 pod 'LNLib',git: 'https://gitee.com/Lance01/LanceTool.git'
+pod 'TesseractOCRiOS', '~> 4.0.0'
 
 end
 
