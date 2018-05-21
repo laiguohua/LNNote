@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D75B101220AE7AAE005941CA /* NSString+verify.m in Sources */ = {isa = PBXBuildFile; fileRef = D75B101120AE7AAE005941CA /* NSString+verify.m */; };
 		D76331F82085C0CE0095BE6D /* NoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D76331F72085C0CE0095BE6D /* NoteCell.m */; };
 		D76331FD2085D1310095BE6D /* GCDNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76331FB2085D1310095BE6D /* GCDNoteViewController.m */; };
 		D76331FE2085D1310095BE6D /* GCDNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76331FC2085D1310095BE6D /* GCDNoteViewController.xib */; };
@@ -38,6 +39,8 @@
 		091C6E9CA4F9F37B793C6CA9 /* Pods_LNNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31A749205DB2DC2304CF4ED /* Pods-LNNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNNote/Pods-LNNote.debug.xcconfig"; sourceTree = "<group>"; };
 		D171F637832D1F70BB4CC8FA /* Pods-LNNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNNote/Pods-LNNote.release.xcconfig"; sourceTree = "<group>"; };
+		D75B101020AE7AAE005941CA /* NSString+verify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+verify.h"; sourceTree = "<group>"; };
+		D75B101120AE7AAE005941CA /* NSString+verify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+verify.m"; sourceTree = "<group>"; };
 		D76331F62085C0CE0095BE6D /* NoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteCell.h; sourceTree = "<group>"; };
 		D76331F72085C0CE0095BE6D /* NoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteCell.m; sourceTree = "<group>"; };
 		D76331FA2085D1310095BE6D /* GCDNoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDNoteViewController.h; sourceTree = "<group>"; };
@@ -107,6 +110,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D75B100F20AE7A84005941CA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D75B101020AE7AAE005941CA /* NSString+verify.h */,
+				D75B101120AE7AAE005941CA /* NSString+verify.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		D76331F92085D1180095BE6D /* GCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +176,7 @@
 		D7F2B30C20848B4B003B4669 /* LNNote */ = {
 			isa = PBXGroup;
 			children = (
+				D75B100F20AE7A84005941CA /* Category */,
 				D763320E2085E1620095BE6D /* Runloop */,
 				D76331FF2085D9350095BE6D /* ResponderChain */,
 				D76331F92085D1180095BE6D /* GCD */,
@@ -296,7 +309,6 @@
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
-				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
 				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
 				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
@@ -315,7 +327,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
@@ -374,6 +385,7 @@
 				D7F2B31D20848B4D003B4669 /* main.m in Sources */,
 				D7F2B3332084A378003B4669 /* wkwebViewController.m in Sources */,
 				D763320C2085DC430095BE6D /* NSObject+performSelecter.m in Sources */,
+				D75B101220AE7AAE005941CA /* NSString+verify.m in Sources */,
 				D76331FD2085D1310095BE6D /* GCDNoteViewController.m in Sources */,
 				D763320D2085DC430095BE6D /* UIResponder+route.m in Sources */,
 				D76332072085DAE80095BE6D /* responderTapView.m in Sources */,
@@ -439,6 +451,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -497,6 +510,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -521,6 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUL8MVVQ4H;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LNNote/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,6 +555,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUL8MVVQ4H;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LNNote/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (

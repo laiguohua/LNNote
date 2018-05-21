@@ -24,7 +24,6 @@
     invocation.selector = aselecter;
     NSInteger argNum = signature.numberOfArguments - 2;
     NSInteger num = MIN(argNum, arguments.count);
-    NSMutableArray *muArr = [NSMutableArray arrayWithCapacity:num];
     for(int i=0;i<num;i++){
         id obj = arguments[i];
         if([obj isEqual:[NSNull null]]){

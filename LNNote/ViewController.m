@@ -46,7 +46,10 @@
         @strongify(self);
         [self cellClikWithModel:cellModel];
     }];
+    
+   
 }
+
 
 - (void)loadLocalData{
     [self.dataArr removeAllObjects];
